@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <title>Hello, world!</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+    <link rel="stylesheet" th:href="@{/css/styles.css}" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Belgrano|Flamenco" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="header clearfix">
+        <nav>
+            <ul class="nav nav-pills float-right">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-danger " href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-danger" href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="jumbotron bgimg">
+        <h1 class="display-3">Spicy Food</h1>
+        <h3 class="lead strong">How to become a Hot Pepper Emperor</h3>
+        <p><a class="btn btn-lg btn-success" href="/signUp" role="button">Sign up today</a></p>
+    </div>
+
+    <div class="col-lg-12">
+        <p class="intro">Do your friends laugh at your pain when you bite into a taco? Do they smile in delight as General Tso's chicken leaves you
+            drenched in sweat? Spicy food is enjoyed the world over. In some countries, spicy foods are even fed to the very
+            young to help acclimate their taste buds to the delicious heat. Eating spicy foods will open up a whole new world of
+            culinary delights to those who dare to venture, but for those who haven't eaten many spicy foods, work is required
+            to handle the hotter stuff. Follow a few simple guidelines to acclimate to the spicier food of the world, then conquer
+            the world's hottest dishes.
+        </p>
+    </div>
+
+    <div class="row marketing">
+        <div class="col-lg-6">
+            <h4 class="linkcolor"><a class="text-warning" href="/startingOff">Starting Off</a></h4>
+            <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+            <h4 class="linkcolor"><a class="text-warning" href="/levelingUp">Leveling Up</a></h4>
+            <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+        </div>
+        <div class="col-lg-6">
+            <h4 class="linkcolor"><a class="text-warning" href="/conqueringFoes">Conquering Foes</a></h4>
+            <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+            <h4 class="linkcolor"><a class="text-warning" href="/defendingThrone">Defending the Throne</a></h4>
+            <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+        </div>
+        
+    </div>
+    <footer class="footer">
+        <p>&copy; Emperor Pepper 2019</p>
+    </footer>
+</div>
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

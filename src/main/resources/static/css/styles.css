@@ -1,0 +1,33 @@
+.bgimg {
+    background-image:
+            linear-gradient(
+            rgba(0, 0, 0, 0.1),
+            rgba(0, 0, 0, 0.1)
+    ), url("../img/chileJumbotron.jpeg");
+    background-size: cover;
+}
+
+.pageimg{
+
+}
+h1 {
+    font-family: 'Belgrano', serif;
+}
+h3{
+    font-family: 'Flamenco', cursive;
+}
+
+.display-3, .lead{
+    color: white;
+}
+
+.active {
+    background-color: #dc3545 !important;
+    display:block;
+}
+
+.intro{
+    font-family: 'Belgrano', serif;
+    text-align: center;
+}
+
